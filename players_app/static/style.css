@@ -1,0 +1,52 @@
+*, ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Hermit", monospace;
+}
+nav {
+    justify-content: space-between;
+    padding: 1em;
+    background-color: grey;
+    color: white;
+    margin-bottom: 1em;
+}
+nav, nav ul {
+    display: flex;
+    align-items: center;
+
+}
+nav ul {
+    justify-content: space-around;
+    list-style: none;
+    flex: 1;
+}
+nav a {
+    /* color: green; */
+}
+table.table-dev {
+    width: 100%;
+    text-align: left;
+    border: solid 2px black;
+}
+table.table-dev tr {
+    display:flex;
+    padding: 1em;
+}
+table.table-dev thead tr {
+    border-bottom: solid 1px black;
+}
+table.table-dev thead {
+    background-color: beige;
+}
+table.table-dev > tbody > tr:nth-child(even) {
+    background-color: lightblue;
+}
+table.table-dev th, table.table-dev td {
+    flex: 1;
+}
+form.player-form {
+    width: 65%;
+    margin: 0 auto;
+}
