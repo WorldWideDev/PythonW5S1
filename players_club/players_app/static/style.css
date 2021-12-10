@@ -4,11 +4,12 @@
 }
 body {
     font-family: "Hermit", monospace;
+    background-color: beige;
 }
 nav {
     justify-content: space-between;
     padding: 1em;
-    background-color: grey;
+    background-color: #2d2d2d;;
     color: white;
     margin-bottom: 1em;
 }
@@ -23,7 +24,7 @@ nav ul {
     flex: 1;
 }
 nav a {
-    /* color: green; */
+    color: rgb(25, 115, 175);
 }
 table.table-dev {
     width: 100%;
